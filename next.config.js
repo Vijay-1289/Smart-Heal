@@ -2,9 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
+    unoptimized: true,
     domains: ['heal-smart.vercel.app'],
   },
   output: 'export',
+  trailingSlash: true,
   distDir: 'out',
 }
 
