@@ -5,9 +5,7 @@ const nextConfig = {
     unoptimized: true,
     domains: ['heal-smart.vercel.app'],
   },
-  output: 'export',
   trailingSlash: true,
-  distDir: 'out',
 }
 
 module.exports = nextConfig 
